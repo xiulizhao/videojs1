@@ -1,0 +1,33 @@
+.fullscreen{
+   position: fixed!important;
+   right: 0!important;
+   bottom: 0!important;
+   min-width: 100%!important;
+   min-height: 100%!important;
+   width: auto!important;
+   height: auto!important;
+}
+.rtop .vjs-big-play-button {
+  top: 0;
+  left: 100%;
+  margin-top: 0.25em;
+  margin-left: -3.25em;
+}
+.lbottom .vjs-big-play-button {
+  top: 100%;
+  left: 0;
+  margin-top: -1.75em;
+  margin-left: 0.25em;
+}
+.rbottom .vjs-big-play-button {
+  top: 100%;
+  left: 100%;
+  margin-top: -1.75em;
+  margin-left: -3.25em;
+}
+.circle .vjs-big-play-button {
+    line-height: 2em!important;
+    height: 2em!important;
+    width: 2em!important;
+    border-radius: 1em!important;
+}
